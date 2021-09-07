@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 ////////////////////////////////////////////////////////////////////////////////
-// Team Members:
+// Team Members: Ruben Fuentes, Elizabeth Conacher, Rahel Gerson
 // Overall percent effort of each team meber: 
 // 
 // ECE369A - Computer Architecture
