@@ -31,8 +31,8 @@ module ProgramCounter(Address, PCResult, Reset, Clk);
 
 	output reg [31:0] PCResult;
 
-    /* Please fill in the implementation here... */
-    //this is sequential, so nonblocking! sequential: store on every clk edge!!!
+    //remember to use NONblocking statements, since this is SEQUENTIAL LOGIC
+    //SEQUENTIAL b/c a state is stored and updated according to a clock!!!
     always @(posedge Clk, posedge Reset)
     begin
         if (Reset == 1)
